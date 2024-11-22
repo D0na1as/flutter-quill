@@ -142,6 +142,7 @@ abstract class FlutterQuillLocalizations {
     Locale('de'),
     Locale('el'),
     Locale('en'),
+    Locale('lt'),
     Locale('en', 'US'),
     Locale('es'),
     Locale('fa'),
@@ -791,6 +792,7 @@ class _FlutterQuillLocalizationsDelegate
         'de',
         'el',
         'en',
+        'lt',
         'es',
         'fa',
         'fr',
@@ -835,6 +837,14 @@ FlutterQuillLocalizations lookupFlutterQuillLocalizations(Locale locale) {
       {
         switch (locale.countryCode) {
           case 'US':
+            return FlutterQuillLocalizationsEnUs();
+        }
+        break;
+      }
+    case 'lt':
+      {
+        switch (locale.countryCode) {
+          case 'LT':
             return FlutterQuillLocalizationsEnUs();
         }
         break;
