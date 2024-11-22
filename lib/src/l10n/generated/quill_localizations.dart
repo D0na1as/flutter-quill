@@ -26,6 +26,7 @@ import 'quill_localizations_ja.dart';
 import 'quill_localizations_km.dart';
 import 'quill_localizations_ko.dart';
 import 'quill_localizations_ku.dart';
+import 'quill_localizations_lt.dart';
 import 'quill_localizations_ms.dart';
 import 'quill_localizations_ne.dart';
 import 'quill_localizations_nl.dart';
@@ -845,7 +846,7 @@ FlutterQuillLocalizations lookupFlutterQuillLocalizations(Locale locale) {
       {
         switch (locale.countryCode) {
           case 'LT':
-            return FlutterQuillLocalizationsEnUs();
+            return FlutterQuillLocalizationsLt();
         }
         break;
       }
@@ -907,6 +908,8 @@ FlutterQuillLocalizations lookupFlutterQuillLocalizations(Locale locale) {
       return FlutterQuillLocalizationsEn();
     case 'lt':
       return FlutterQuillLocalizationsEn();
+    case 'lt':
+      return FlutterQuillLocalizationsLt();
     case 'es':
       return FlutterQuillLocalizationsEs();
     case 'fa':
