@@ -905,6 +905,8 @@ FlutterQuillLocalizations lookupFlutterQuillLocalizations(Locale locale) {
       return FlutterQuillLocalizationsEl();
     case 'en':
       return FlutterQuillLocalizationsEn();
+    case 'lt':
+      return FlutterQuillLocalizationsEn();
     case 'es':
       return FlutterQuillLocalizationsEs();
     case 'fa':
